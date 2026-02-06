@@ -1,6 +1,8 @@
 # Projeto LI2 - Jogo de Tabuleiro
 
 Projeto em C para a disciplina de Laboratórios de Informática II (LI2). O jogo consiste em manipular o estado de um tabuleiro através de comandos, seguindo regras definidas no enunciado.
+Neste projeto optamos como opção para resolver a matriz:
+A matriz carregada ou inserida é resolvida e guardada num ficheiro .txt e depois os Utilizadores podem usar o menu interativo para jogar na matriz não resolvida.
 
 ## Conteúdos
 
