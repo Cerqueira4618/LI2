@@ -1,23 +1,56 @@
 # Projeto LI2 - Jogo de Tabuleiro
 
-Este projeto é um jogo de tabuleiro desenvolvido em C para a disciplina de Laboratórios de Informática II (LI2). O objetivo do jogo é resolver um tabuleiro com base em regras específicas, utilizando comandos para manipular o estado do jogo.
+Projeto em C para a disciplina de Laboratórios de Informática II (LI2). O jogo consiste em manipular o estado de um tabuleiro através de comandos, seguindo regras definidas no enunciado.
 
-## Table of Contents
+## Conteúdos
 
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Licença](#licença)
+- [Requisitos](#requisitos)
+- [Compilar](#compilar)
+- [Executar](#executar)
+- [Testes](#testes)
+- [Estrutura do projeto](#estrutura-do-projeto)
 
-## Instalação
+## Requisitos
 
-1. Certifique-se de ter o GCC instalado no seu sistema.
-2. Clone este repositório:
+- GCC
+- Make
 
-## Uso
+## Compilar
 
-1. make jogo
-2. ./jogo
+```bash
+make
+```
 
-## licença
+Gera o executável `jogo`.
 
-1. Consulte o ficheiro LICENSE que se encontra no meu repositório:
+## Executar
+
+```bash
+./jogo
+```
+
+Se existir um ficheiro de entrada, pode executar com:
+
+```bash
+./jogo < jogo.txt
+```
+
+## Testes
+
+```bash
+make testes
+./testes
+```
+
+## Estrutura do projeto
+
+- `main.c` - ponto de entrada do programa.
+- `funcoes.c` - logica principal do jogo.
+- `testes.c` - testes automatizados.
+- `jogo.txt` - exemplo de input.
+- `res.txt` - exemplo de output.
+- `Makefile` - comandos de compilacao.
+
+## Licenca
+
+Sem licença especificada.
